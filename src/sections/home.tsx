@@ -5,7 +5,7 @@ function Home() {
   return (
     <>
       <section>
-        <div className="main relative">
+        <div className="main relative bg-white z-20">
           <div className="w-1/3 absolute top-[20%] left-[7%] z-20">
             <Fade delay={1000} cascade triggerOnce>
               <p className="uppercase text-5xl font-bold">

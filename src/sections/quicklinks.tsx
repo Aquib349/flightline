@@ -8,8 +8,8 @@ function Quicklinks() {
   return (
     <>
       <section>
-        <div className="relative main w-[92%] mx-auto mt-16 grid grid-cols-2">
-          <div className="w-2/4 p-12">
+        <div className="relative main w-[95%] mx-auto mt-16 grid grid-cols-2">
+          <div className="w-3/4 p-12">
             <div className="flex items-center gap-3 text-4xl">
               <p className="uppercase font-bold">h2</p>
               <p className="uppercase font-bold text-[#0D2BFE]">quicklinks</p>
@@ -19,19 +19,17 @@ function Quicklinks() {
               tenetur vel quo reprehenderit, adipisci maiores!
             </p>
           </div>
-          <div className="grid grid-cols-2 gap-6 py-12 z-20">
+          <div className="grid grid-cols-2 gap-6 py-2 z-20">
             {cards.map((card, index) => (
               <Card key={index} title={card.title} />
             ))}
           </div>
           <img src={Image} alt="image" className="absolute top-0 left-0" />
         </div>
+        <div className="absolute bottom-0 right-0">
+          <img src={bgImage} alt="image" className="w-full h-full" />
+        </div>
       </section>
-      <img
-        src={bgImage}
-        alt="image"
-        className="absolute inset-0 w-full top-[15%] z-0"
-      />
     </>
   );
 }

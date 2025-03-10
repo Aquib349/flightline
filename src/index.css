@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+.section_footer {
+  margin-bottom: 280px;
+  position: relative;
+  z-index: 2;
+}

@@ -16,9 +16,9 @@ function Stats() {
 
   return (
     <section>
-      <div className="relative">
-        <div className="w-[85%] mx-auto">
-          <div className="w-2/5">
+      <div className="relative bg-white z-20">
+        <div className="w-[95%] mx-auto">
+          <div className="w-3/5">
             <p className="font-bold text-[#DB2B39] uppercase">By the Numbers</p>
             <div className="flex items-center gap-3 text-3xl">
               <p className="uppercase font-bold">The Stats Behind</p>
