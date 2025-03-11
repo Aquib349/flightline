@@ -53,7 +53,7 @@ export default function MarketplaceCarousel() {
               sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
               et dolore magna aliquyam erat, sed diam voluptua.
             </p>
-            <button className="bg-[#0D2BFE] text-white px-6 py-2 oswald-500 rounded-md mt-4">
+            <button className="bg-[#0D2BFE] oswald-400 text-white px-6 py-2 rounded-md mt-4">
               LEARN MORE
             </button>
           </div>

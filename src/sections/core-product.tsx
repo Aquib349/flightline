@@ -52,7 +52,7 @@ function CoreProducts() {
               </p>
             </div>
           </div>
-          <button className="uppercase mt-8 bg-[#0D2BFE] text-white py-2.5 px-4 rounded-md font-bold text-sm flex items-center cursor-pointer">
+          <button className="uppercase oswald-400 mt-8 bg-[#0D2BFE] text-white py-2.5 px-4 rounded-md font-bold text-sm flex items-center cursor-pointer">
             learn more
           </button>
         </div>

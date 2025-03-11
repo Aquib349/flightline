@@ -71,7 +71,7 @@ function Card({ title }: { title: string }) {
       </p>
       <a
         href="#"
-        className="flex items-center gap-1 text-[#0D2BFE] font-bold mt-4 transition-transform duration-300 transform hover:translate-x-1"
+        className="flex items-center oswald-400 gap-1 text-[#0D2BFE] font-bold mt-4 transition-transform duration-300 transform hover:translate-x-1"
       >
         LEARN MORE <ArrowRight size={16} />
       </a>

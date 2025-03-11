@@ -21,11 +21,11 @@ function Home() {
                 diam nonumy dirmod tempor invidunt ut labore et dolore magna
                 aliquyam erat, sed diam voluptua.
               </p>
-              <div className="flex items-center gap-8 pt-4">
-                <button className="uppercase bg-[#0D2BFE] text-white py-2.5 px-4 rounded-md font-bold text-sm flex items-center cursor-pointer">
+              <div className="flex items-center gap-8 pt-4 oswald-400 font-semibold">
+                <button className="uppercase bg-[#0D2BFE] text-white py-2.5 px-4 rounded-md text-sm flex items-center cursor-pointer">
                   call to action
                 </button>
-                <button className="uppercase text-[#0D2BFE] font-bold text-sm flex items-center gap-1 cursor-pointer">
+                <button className="uppercase text-[#0D2BFE] text-sm flex items-center gap-1 cursor-pointer">
                   secondary cta <ChevronRight size={16} />
                 </button>
               </div>
