@@ -10,7 +10,7 @@ function Quicklinks() {
       <section>
         <div className="relative main w-[95%] mx-auto mt-16 grid grid-cols-2">
           <div className="w-3/4 p-12">
-            <div className="flex items-center gap-3 text-4xl">
+            <div className="flex items-center gap-3 text-4xl oswald-500">
               <p className="uppercase font-bold">h2</p>
               <p className="uppercase font-bold text-[#0D2BFE]">quicklinks</p>
             </div>
@@ -64,7 +64,7 @@ function Card({ title }: { title: string }) {
           className="absolute right-0 bottom-0"
         />
       )}
-      <h3 className="text-lg font-bold">{title}</h3>
+      <h3 className="text-lg font-bold oswald-500">{title}</h3>
       <p className="text-gray-600 mt-2">
         Lorem ipsum dolor sit amet, consetetur lorem ips sadipscing elitr, sed
         diam nonumy eirmod.

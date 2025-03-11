@@ -54,8 +54,8 @@ const Benefits = () => {
 
   return (
     <section className="relative bg-white z-20">
-      <div className="relative py-24 w-[95%] mx-auto">
-        <h2 className="uppercase text-3xl font-bold ml-10">
+      <div className="relative py-24 w-[90%] mx-auto">
+        <h2 className="uppercase text-3xl font-bold ml-10 oswald-500">
           Benefits of <span className="text-[#0D2BFE]">Our Platform</span>
         </h2>
         <div className="grid grid-cols-3 gap-6 mt-4">
@@ -80,8 +80,8 @@ const Benefits = () => {
                     transition={{ duration: 3, ease: "linear" }}
                   />
                 )}
-                <div className="w-full p-2">
-                  <h3 className="uppercase text-xl font-bold">
+                <div className="w-full px-2">
+                  <h3 className="uppercase text-xl font-bold oswald-500">
                     {item.heading}
                   </h3>
                   {index === currentIndex && (

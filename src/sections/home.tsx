@@ -6,14 +6,16 @@ function Home() {
     <>
       <section>
         <div className="main relative bg-white z-20">
-          <div className="w-1/3 absolute top-[20%] left-[7%] z-20">
+          <div className="w-2/6 absolute top-[20%] left-[7%] z-20">
             <Fade delay={1000} cascade triggerOnce>
-              <p className="uppercase text-5xl font-bold">
-                Bettering the business of
-              </p>
-              <p className="uppercase text-[#0D2BFE] text-5xl font-bold">
-                goverment procurement
-              </p>
+              <div className="oswald-500">
+                <p className="uppercase text-5xl font-bold">
+                  Bettering the business of
+                </p>
+                <p className="uppercase text-[#0D2BFE] text-5xl font-bold">
+                  goverment procurement
+                </p>
+              </div>
               <p className="font-normal pt-4 text-lg">
                 Lorem Ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy dirmod tempor invidunt ut labore et dolore magna

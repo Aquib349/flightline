@@ -14,14 +14,14 @@ export default function Footer() {
 
   return (
     <>
-      <section ref={blueFooterRef} className="section_footer">
+      <section ref={blueFooterRef} className="section_footer bg-white relative">
         <div className="bg-blue-600 text-white py-12 rounded-t-3xl relative overflow-hidden">
-          <div className="max-w-6xl mx-auto grid grid-cols-2">
+          <div className="max-w-6xl mx-auto grid grid-cols-2 oswald-500">
             <div className="text-center border-r border-white/60 py-4">
               <h3 className="text-lg font-bold">
                 LOREM IPSUM DOLOR SIT AMET, CONSETETUR
               </h3>
-              <button className="mt-4 px-6 py-2 cursor-pointer bg-white text-black rounded-lg font-bold">
+              <button className="mt-4 px-6 py-2 cursor-pointer bg-white text-black rounded-lg">
                 CONTACT US
               </button>
             </div>
@@ -29,7 +29,7 @@ export default function Footer() {
               <h3 className="text-lg font-bold">
                 LOREM IPSUM DOLOR SIT AMET, CONSETETUR
               </h3>
-              <button className="mt-4 px-6 py-2 cursor-pointer bg-white text-black rounded-lg font-bold">
+              <button className="mt-4 px-6 py-2 cursor-pointer bg-white text-black rounded-lg">
                 SCHEDULE A DEMO
               </button>
             </div>
@@ -66,31 +66,31 @@ export default function Footer() {
                   />
                 ))}
               </div>
-              <button className="mt-4 px-6 py-2 cursor-pointer bg-[#0D2BFE] font-semibold rounded-md">
+              <button className="mt-4 px-6 py-2 cursor-pointer oswald-500 bg-[#0D2BFE] font-semibold rounded-md">
                 SCHEDULE A DEMO
               </button>
             </div>
             <div className="space-y-2 ml-12">
-              <h3 className="font-bold text-base">OUR SOLUTION</h3>
+              <h3 className="font-bold text-base oswald-500">OUR SOLUTION</h3>
               <p className="">Benefits</p>
               <p className="">Pricing</p>
             </div>
             <div className="space-y-2 ml-6">
-              <h3 className="font-bold text-base">USE CASES</h3>
+              <h3 className="font-bold text-base oswald-500">USE CASES</h3>
               <p className="">Federal Agencies</p>
               <p className="">Manufacturers & Suppliers</p>
               <p className="">Distributors</p>
               <p className="">Resellers</p>
             </div>
             <div className="space-y-2 ml-12">
-              <h3 className="font-bold text-base">WHY FLIGHTLINE</h3>
+              <h3 className="font-bold text-base oswald-500">WHY FLIGHTLINE</h3>
               <p className="">About Us</p>
               <p className="">Compliance</p>
               <p className="">Connectivity</p>
               <p className="">Leadership</p>
             </div>
             <div className="space-y-2 ml-12">
-              <h3 className="font-bold text-base">RESOURCES</h3>
+              <h3 className="font-bold text-base oswald-500">RESOURCES</h3>
               <p className="">Blogs</p>
               <p className="">Success Stories</p>
               <p className="">Videos</p>

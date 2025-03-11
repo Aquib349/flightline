@@ -17,10 +17,10 @@ function Stats() {
   return (
     <section>
       <div className="relative bg-white z-20">
-        <div className="w-[95%] mx-auto">
+        <div className="w-[90%] mx-auto">
           <div className="w-3/5">
             <p className="font-bold text-[#DB2B39] uppercase">By the Numbers</p>
-            <div className="flex items-center gap-3 text-3xl">
+            <div className="flex items-center gap-3 text-3xl oswald-500">
               <p className="uppercase font-bold">The Stats Behind</p>
               <p className="uppercase font-bold text-[#0D2BFE]">Our Success</p>
             </div>

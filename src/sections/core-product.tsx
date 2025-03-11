@@ -28,7 +28,7 @@ function CoreProducts() {
         {/* Text content */}
         <div>
           <p className="font-bold text-[#DB2B39] uppercase">promo</p>
-          <div className="flex items-center gap-3 text-4xl">
+          <div className="flex items-center gap-3 text-3xl oswald-500">
             <p className="uppercase font-bold">core product</p>
             <p className="uppercase font-bold text-[#0D2BFE]">functionality</p>
           </div>
